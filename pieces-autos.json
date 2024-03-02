@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nom": "Vélo électrique urbain",
+        "prix": 8,
+        "image": ["images/velo-electrique-urbain2.jpg","images/velo-electrique-urbain1.jpg"],
+        "description": "Le vélo électrique urbain est une solution de transport moderne et écologique, parfaitement adaptée à la vie en ville.\n Avec son moteur électrique intégré, il offre une assistance au pédalage, ce qui rend les déplacements urbains plus faciles et plus rapides, tout en réduisant l'effort physique nécessaire.\n Conçu pour être agile et maniable dans les rues encombrées, ce type de vélo offre confort et praticité aux cyclistes urbains, tout en contribuant à la réduction de la pollution et de la congestion routière.",
+        "disponibilite": ["Annecy", "Chambéry", "Grenoble", "Valence"]
+    },
+      
+    {
+        "id": 2,
+        "nom": "Vtt électrique",
+        "prix": 9,
+        "image": ["images/vtt-electrique1.jpg", "images/vtt-electrique2.jpg"],
+        "description": "Le VTT électrique est l'outil ultime pour les aventures en plein air.\n Doté d'un moteur électrique puissant, il offre une assistance au pédalage sur tous les terrains, permettant aux cyclistes de parcourir des sentiers escarpés et accidentés avec aisance.\n Sa batterie longue durée garantit des heures d'exploration sans souci, tandis que sa conception robuste assure une stabilité et une durabilité optimales.\n Que ce soit pour des excursions en montagne ou des randonnées à travers la nature, le VTT électrique offre une expérience de conduite hors route inégalée.",
+        "disponibilite": ["Annecy","Grenoble"]
+    },
+    {
+        "id": 3,
+        "nom": "Hoverboard",
+        "prix": 7,
+        "image": ["images/hoverboard.jpg"],
+        "description": "L'hoverboard est le moyen de transport futuriste par excellence.\n Avec sa technologie d'auto-équilibrage, il permet aux utilisateurs de se déplacer en douceur et en toute stabilité, en inclinant simplement leur poids dans la direction souhaitée.\n Compact et léger, il est facile à transporter et parfait pour les déplacements courts en ville.\n Que ce soit pour se rendre à l'école, au travail ou simplement pour s'amuser dans les parcs, l'hoverboard offre une expérience de conduite unique et captivante pour les amateurs de nouvelles technologies.",
+        "disponibilite": ["Grenoble", "Valence"]
+    },
+    {
+        "id": 4,
+        "nom": "Trotinette électrique",
+        "prix": 7,
+        "description": "La trottinette électrique est le compagnon de déplacement idéal pour les citadins modernes.\n Compacte, pliable et facile à transporter, elle offre une solution de transport pratique pour les trajets quotidiens en ville.\n Dotée d'un moteur électrique silencieux, elle permet de se déplacer rapidement et efficacement, évitant les embouteillages et les tracas liés au stationnement.\n Son guidon ajustable et ses roues robustes garantissent stabilité et confort, même sur les surfaces irrégulières.\n Avec la trottinette électrique, les déplacements urbains deviennent rapides, agréables et respectueux de l'environnement.",
+        "image": ["images/trotinette1.jpg","images/trotinette2.jpg"],
+        "disponibilite": ["Annecy","Grenoble"]
+    },
+    {
+        "id": 5,
+        "nom": "Gyropode",
+        "prix": 8,
+        "image": ["images/gyropode1.jpg","images/gyropode2.jpg"],
+        "description": "Le gyropode, également connu sous le nom de Segway, est une alternative élégante et pratique aux modes de transport traditionnels en ville.\n Avec son système d'équilibrage automatique, il offre une conduite intuitive et fluide, permettant aux utilisateurs de se déplacer facilement dans les rues animées et les espaces restreints.\n Son design compact et sa maniabilité exceptionnelle en font un choix idéal pour les déplacements urbains, que ce soit pour se rendre au travail ou pour explorer la ville en toute liberté.\n Avec le gyropode, déplacer en ville devient non seulement efficace, mais aussi amusant.",
+        "disponibilite": ["Annecy","Grenoble","Chambéry","Valence"]
+    },
+
+    {
+        "id": 6,
+        "nom": "Skateboard électrique",
+        "prix": 10,
+        "image": ["images/skateboard1.jpg","images/skateboard2.jpg"],
+        "description": "Le skateboard électrique offre une toute nouvelle dimension à la pratique du skateboard traditionnel.\n Propulsé par un moteur électrique, il permet aux skateurs de parcourir les rues avec vitesse et fluidité, sans avoir à pousser constamment.\n Compact et portable, il est facile à transporter et idéal pour les déplacements urbains quotidiens.\n Doté d'une télécommande intuitive pour contrôler la vitesse et l'accélération, le skateboard électrique offre une expérience de conduite dynamique et excitante pour les amateurs de glisse urbaine.",
+        "disponibilite": ["Annecy","Chambéry"]
+    }
+]

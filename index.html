@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Catalogue</title>
+
+		<script src="node_modules/chart.js/dist/chart.umd.js" defer></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+		<script type="module" src="pieces.js"defer></script>
+		<script type="module" src="logo.js"defer></script>
+
+
+	</head>
+	<link rel="icon" type="image/x-icon" href="images/Minia_Ecomobil.png">
+	<body>
+		<div id="ambient" style="overflow:hidden; position:absolute; width:cover; height:250vh; z-index: -3; "></div>
+		<nav>
+			<div class="nav-wrapper light-blue">
+				<a href=""><img src="images/Logo_Ecomobil.png" title="Retourner au menu" style="width:168px; background-color: white;"></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					
+				  <li><a href="">Créer un compte</a></li>
+				  <li><a href="">Se connecter</a></li>
+				  <?php if (isset($_SESSION['prenom']) && isset($_SESSION['nom'])) { ?>
+					<li><a href="">Mes commandes</a></li>
+				  <?php } ?>
+				  <li><?php if (isset($_SESSION['nom']) && isset($_SESSION['prenom'])) {?>
+
+			  <?php } ?></li>
+				</ul>
+			</div>
+		</nav>
+<br><br>
+		<div id="container" style="border-bottom: solid 2px grey;">
+			<img id="image" src="images/Minia_Ecomobil.png" alt="Votre image" width="5%">
+		  </div>
+
+		<main>
+
+			<!-- Menu de recherche -->
+			<section class="filtres" style="background-color: white;">
+ 				<h3>Filtres</h3>
+
+				<form action="#">
+					<p>
+						<label>
+							<input class="with-gap" name="tri" type="radio" value="pertinence" checked />
+							<span>Pertinence</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input class="with-gap" name="tri" type="radio" value="prix-croissant"/>
+							<span>Prix croissant</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input class="with-gap" name="tri" type="radio" value="prix-decroissant"/>
+							<span>Prix décroissant</span>
+						</label>
+					</p>
+				</form>
+				
+
+
+				<p>Prix horaire:</p>
+				<input type="range" name="prix-max" id="prix-max" min="7" max="10" step="1" value="10">
+				<div class="range-labels">
+					<span>7</span>
+					<span></span>
+					<span></span>
+					<span style="text-align: right;">10</span>
+				</div>
+			</div>
+				
+				<h3>Selectionner agence</h3>
+				<form action="#">
+					<p>
+					  <label>
+						<input class="with-gap" name="agence" type="radio" value="Annecy" checked/>
+						<span>Annecy</span>
+					  </label>
+					</p>
+					<p>
+					  <label>
+						<input class="with-gap" name="agence" type="radio" value="Grenoble"/>
+						<span>Grenoble</span>
+					  </label>
+					</p>
+					<p>
+					  <label>
+						<input class="with-gap" name="agence" type="radio" value="Chambéry"/>
+						<span>Chambéry</span>
+					  </label>
+					</p>
+					<p>
+					  <label>
+						<input name="agence" type="radio" class="with-gap" value="Valence"/>
+						<span>Valence</span>
+					  </label>
+					</p>
+				  </form>
+
+			</section>
+
+			<!-- Fiches produits -->
+			<section class="fiches"></div>
+				<div class="image-container"></div>
+
+			</section>
+			
+		</main>
+		<script src="BVAmbient-main/js/bvambient.js" defer></script>
+		<script type="module" src="background.js"defer></script>
+
+	</body>
+</html>
